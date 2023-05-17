@@ -1,0 +1,28 @@
+.checkoutProduct{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cpInfo{
+    padding-left: 20px;
+
+}
+.cpInfo > button{
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+.cpImage{
+    object-fit: contain;
+    min-width: 100px;
+    max-height: 100px;
+}
+.cpRating{
+    display: flex;
+}
+.cpTitle{
+    font-size: 14px;
+    font-weight: 800;
+}
